@@ -1,0 +1,7 @@
+@import url("./style.css");
+@import url("./variables.css");
+
+@font-face {
+    font-family: "HankenGrotesk";
+    src: url('../fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
