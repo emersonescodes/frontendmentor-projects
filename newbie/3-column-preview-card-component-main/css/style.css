@@ -1,0 +1,49 @@
+#sedans {
+    background: var(--bright-orange);
+}
+
+#suvs {
+    background: var(--cyan);
+}
+
+#luxury {
+    background: var(--dark-cyan);
+}
+
+.car-options__title{
+    margin-bottom: 30px;
+    font-family: 'Big Shoulders Display';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.car-options__description {
+    font-family: 'Lexend Deca';
+    line-height: 1.6;
+    color: var(--neutral-white);
+}
+
+.car-options__button {
+    background-color: white;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    transition: .2s;
+}
+
+.car-options__card:nth-child(1) .car-options__button {
+    color: var(--bright-orange);
+}
+.car-options__card:nth-child(2) .car-options__button  {
+    color: var(--cyan);
+}
+.car-options__card:nth-child(3) .car-options__button  {
+    color: var(--dark-cyan);
+}
+
+.car-options__card .car-options__button:hover {
+    color: white;
+    background: none;
+}
