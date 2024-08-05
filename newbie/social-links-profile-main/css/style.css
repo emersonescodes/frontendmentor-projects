@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter"; 
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 90px;
+    width: 7rem;
+}
+
+.links-component__text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+.links-component__text h3 {
+    color: var(--green);
+}
+
+.links-component__text p {
+    margin-top: 20px;
+    font-weight: semibold;
+    color: var(--white);
+}
+
+.navigation__item a {
+    font-weight: bold;
+    color: white;
+    transition: .2s;
+}
+
+
+.navigation__item a:hover {
+    background: var(--green);
+    color: var(--grey-900);
+}

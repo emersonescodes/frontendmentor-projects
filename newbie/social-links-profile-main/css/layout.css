@@ -1,0 +1,45 @@
+.links-component {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: var(--grey-900);
+    padding: 20px;
+}
+
+.links-component__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 28rem;
+    background: var(--grey-800);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.links-component__card nav {
+    width: 100%;
+}
+
+.links-component__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Inter;
+}
+
+.navigation__item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__item a {
+    background-color: var(--grey-700);
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
